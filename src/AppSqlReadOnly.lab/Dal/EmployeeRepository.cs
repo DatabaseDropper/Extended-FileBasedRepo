@@ -32,7 +32,9 @@ namespace AppSqlReadOnly.lab.Dal
 
         public async Task<EmployeeDao> Test_GetAsync(int id)
         {
-            // kompromis pomiędzy liczbą plików z SQLami dla danych warunków, a trzymaniu części SQL w kodzie 
+            // kompromis korzystający tylko z jednego pliku, ale uzależniony od kodu SQL w kodzie
+            // do podstawiania predykatu.
+
             var query = string.Format(GetWhereSQL(), $"WHERE {nameof(EmployeeDao.Id)} = @Param");
             return await Connection.QueryFirstOrDefaultAsync<EmployeeDao>(query, new { Param = id });
         }

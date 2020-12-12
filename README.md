@@ -1,5 +1,4 @@
-# Extended-FileBasedRepo
- 
+
 **Shortcut:**
 
 SQL Files: [Extended-FileBasedRepo/src/AppSqlReadOnly.lab/](https://github.com/DatabaseDropper/Extended-FileBasedRepo/tree/main/src/AppSqlReadOnly.lab/Dal/Database/Sql/Employees)
