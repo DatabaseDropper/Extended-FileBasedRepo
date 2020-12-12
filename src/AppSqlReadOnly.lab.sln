@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppSqlReadOnly.lab", "AppSqlReadOnly.lab\AppSqlReadOnly.lab.csproj", "{F2108C63-A450-42DD-BD9F-972FC11ADAAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2108C63-A450-42DD-BD9F-972FC11ADAAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2108C63-A450-42DD-BD9F-972FC11ADAAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2108C63-A450-42DD-BD9F-972FC11ADAAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2108C63-A450-42DD-BD9F-972FC11ADAAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6685BDB1-D666-4246-B4EB-DC7CF1ED1231}
+	EndGlobalSection
+EndGlobal
